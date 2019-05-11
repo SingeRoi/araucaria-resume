@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');  
+
+/*---------------------------------Special padding/margins/text------------------------------------*/
+
+.h1,
+.h2,
+.h3,
+.h4 {
+  margin: 0;  
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
+/*---------------------------------negative text name title------------------------------------*/
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+.logo { 
+    color: blue;
+    background: url("../images/monkey-puzzle-tree.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-colour-name {
+    background: url(../images/dona-araucaria.jpg) repeat;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-colour-title {
+    background: url(../images/dona-araucaria.jpg) repeat;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+ 
+.bg-colour-name::before {
+  content: 'Robert Jackson';
+  left: 0;
+  top: 0;
+  position: relative;
+  background-size: cover;
+  min-height: 180px;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: 'Passion One', cursive;
+  z-index: 1;
+  mix-blend-mode: screen;
+  font-weight: 400;
+  font-size: 6.5rem;
+  letter-spacing: 1rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.bg-colour-title::before {
+  content: 'Full Stack Developer';
+  left: 0;
+  top: 0;
+  position: relative;
+  background-size: cover;
+  min-height: 180px;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+  /*change from font-family: "Roboto", sans-serif;*/
+  font-family: 'Passion One', cursive;
+  z-index: 1;
+  mix-blend-mode: screen;
+  font-weight: 400;
+  font-size: 4.5rem;
+  letter-spacing: .3rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.heading {
+    margin-left: 50px;
+}
+/*--------------------------------margin adjust for better mobile display---------------*/
+.name-title-col {
+    margin-left: 5px;
+}
+
+ /*-----------------------------header name title list-------------------------------------*/
+ 
+ .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0px 0px; /* adjust here */
+    margin-bottom: 0;
+    border: 0;
+    
+}
+
+/*---------------------------------Footer------------------------------------*/
+    footer {
+        background-color: #525252;
+        color: #fafafa;
+        height: 120px;
+    }
+    
+/*---------------------------------Hover------------------------------------*/
+/*.logo-name-hvr::before {
+    background-color: rgb(0, 0, 0, 0.2);
+    /*background-color: green;
+    height: 100%;
+    display: block;
+    z-index: 1;*/
+
+ /*ul {
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-wrap: wrap;
+  
+}*/
+
+/*li {
+  color: black;
+  flex:1;
+  text-align:center;
+  padding: 0;
+  cursor: pointer;
+  list-style: none;
+  width: 100%;
+}
+
+  li:hover {
+  background-color: lightblue;
+  color: white;
+}*/
+
+#header-nav {
+    margin: 0;
+}
+
+
+ 
